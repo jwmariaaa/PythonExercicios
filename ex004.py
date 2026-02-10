@@ -1,0 +1,10 @@
+a = input('digite algo: ')
+# essa função input retorna sempre uma string
+print('o tipo primitivo desse valor é ', type(a))
+print('Só tem espaços?', a.isspace())
+print('é um número?', a.isnumeric())
+print('é alfabético?', a.isalpha())
+print('é alfanumérico?', a.isalnum())
+print('está em maiuscula?', a.isupper())
+print('está em minuscula?', a.islower())
+print('está capitalizada?', a.istitle())
